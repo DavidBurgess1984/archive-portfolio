@@ -4,7 +4,7 @@ Small portfolio of coding examples demonstrating coding style and understanding 
 
 ## Content
 
-- Algorithms - Showcasing sorting algorithms and understanding of Big-O Notation for runtime
+- Algorithms - Sorting algorithms and understanding of Big-O Notation for runtime
 - Design Patterns - Showing examples of design patterns.  I try to use where appropriate in projects
 
 ## Motivation
