@@ -5,7 +5,7 @@
 *  equals or is greater/less than the search value.  Has O(ln n) performance.
 */
 
-function findValue($array, $searchValue){
+function binarySearch($array, $searchValue){
 	$min = 0;
 	$max = count($array)-1;
 	$guessCounter = 0;
@@ -30,7 +30,7 @@ function findValue($array, $searchValue){
 
 $testArray = [2,5,7,13,23];
 $searchValue = 13;
-$result = findValue($testArray,$searchValue);
+$result = binarySearch($testArray,$searchValue);
 
 if($result !== -1){
 	echo "Value found at index: ".$result."\n";
